@@ -4,10 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Sarah's Pinterest</title>
 </head>
-<body>
-  <h1>My Pinterest</h1>
-  <button type="button" class="btn btn-danger">Danger</button>
+<body class="text-center">
+
+  <!-- Start of boards div -->
+<div id="boardsPage" class="page-container">
+  <h1>My Boards</h1>
+  <div id="userBoards" class="d-flex flex-wrap"></div>
+</div>  
+<!-- End of boards div -->
+
+<!-- Start of pins page div -->
+<div id="pinsPage" class="page-container hide">
+<button type="button" class="btn btn-secondary float-left" id="toBoardsBtn">Back To Boards</button>
+<h1>Pins</h1>
+<div class="d-flex flex-wrap" id="pinsOnBoard"></div>
+</div>
+<!-- End of pins page div -->
 </body>
 </html>

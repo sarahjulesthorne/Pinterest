@@ -1,4 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
+
+// Styling on body element
 body {
   background-color: blue;
+}
+
+// Styling to hide views as needed
+.hide {
+  display: none;
 }
